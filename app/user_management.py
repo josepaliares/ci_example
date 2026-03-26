@@ -1,7 +1,7 @@
 from typing import Dict, Optional, List
-from data_access import DBInterface
-from db_mock import MockDB
-from user_model import User
+from app.db.data_access import DBInterface
+from app.db.db_mock import MockDB
+from app.user_model import User
 
 
 _db: DBInterface = MockDB()

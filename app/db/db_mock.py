@@ -1,6 +1,6 @@
 import threading
 from typing import Dict, Optional, List
-from data_access import DBInterface
+from app.db.data_access import DBInterface
 
 
 class MockDB(DBInterface):

@@ -1,7 +1,7 @@
 import unittest
-from user_management import set_db, create_user, get_user, \
+from app.user_management import set_db, create_user, get_user, \
     list_users, delete_user
-from db_mock import MockDB
+from app.db.db_mock import MockDB
 
 
 class TestUserManagement(unittest.TestCase):
